@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		6876CD762A27826700BC1452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6876CD752A27826700BC1452 /* AppDelegate.swift */; };
 		6876CD782A27826700BC1452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6876CD772A27826700BC1452 /* SceneDelegate.swift */; };
-		6876CD7A2A27826700BC1452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6876CD792A27826700BC1452 /* ViewController.swift */; };
+		6876CD7A2A27826700BC1452 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6876CD792A27826700BC1452 /* iniciarSesionViewController.swift */; };
 		6876CD7D2A27826700BC1452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6876CD7B2A27826700BC1452 /* Main.storyboard */; };
 		6876CD7F2A27826B00BC1452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6876CD7E2A27826B00BC1452 /* Assets.xcassets */; };
 		6876CD822A27826B00BC1452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6876CD802A27826B00BC1452 /* LaunchScreen.storyboard */; };
+		6876CD8C2A2786B400BC1452 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6876CD8B2A2786B400BC1452 /* GoogleService-Info.plist */; };
+		D17FDCA1362210EB848A46E3 /* Pods_TapiaSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1695D79CA10D3C5605660E3 /* Pods_TapiaSnapchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6876CD722A27826700BC1452 /* TapiaSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapiaSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876CD752A27826700BC1452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6876CD772A27826700BC1452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6876CD792A27826700BC1452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6876CD792A27826700BC1452 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		6876CD7C2A27826700BC1452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6876CD7E2A27826B00BC1452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6876CD812A27826B00BC1452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6876CD832A27826B00BC1452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6876CD8B2A2786B400BC1452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEF4E7CAD0DCBB0E9DFB0E90 /* Pods-TapiaSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapiaSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-TapiaSnapchat/Pods-TapiaSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
+		CD552EDD8BEDA712F29FD4F8 /* Pods-TapiaSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapiaSnapchat.release.xcconfig"; path = "Target Support Files/Pods-TapiaSnapchat/Pods-TapiaSnapchat.release.xcconfig"; sourceTree = "<group>"; };
+		F1695D79CA10D3C5605660E3 /* Pods_TapiaSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapiaSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17FDCA1362210EB848A46E3 /* Pods_TapiaSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		683B8E6F2A27912600352F3A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		6876CD692A27826700BC1452 = {
 			isa = PBXGroup;
 			children = (
+				683B8E6F2A27912600352F3A /* Packages */,
 				6876CD742A27826700BC1452 /* TapiaSnapchat */,
 				6876CD732A27826700BC1452 /* Products */,
+				ACA46782957F291D7C01367C /* Pods */,
+				AA15EEA77489A80CFA4903F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,31 @@
 			children = (
 				6876CD752A27826700BC1452 /* AppDelegate.swift */,
 				6876CD772A27826700BC1452 /* SceneDelegate.swift */,
-				6876CD792A27826700BC1452 /* ViewController.swift */,
+				6876CD792A27826700BC1452 /* iniciarSesionViewController.swift */,
 				6876CD7B2A27826700BC1452 /* Main.storyboard */,
 				6876CD7E2A27826B00BC1452 /* Assets.xcassets */,
 				6876CD802A27826B00BC1452 /* LaunchScreen.storyboard */,
 				6876CD832A27826B00BC1452 /* Info.plist */,
+				6876CD8B2A2786B400BC1452 /* GoogleService-Info.plist */,
 			);
 			path = TapiaSnapchat;
+			sourceTree = "<group>";
+		};
+		AA15EEA77489A80CFA4903F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1695D79CA10D3C5605660E3 /* Pods_TapiaSnapchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA46782957F291D7C01367C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF4E7CAD0DCBB0E9DFB0E90 /* Pods-TapiaSnapchat.debug.xcconfig */,
+				CD552EDD8BEDA712F29FD4F8 /* Pods-TapiaSnapchat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6876CD862A27826B00BC1452 /* Build configuration list for PBXNativeTarget "TapiaSnapchat" */;
 			buildPhases = (
+				D1D870203789CE0E8F7135FC /* [CP] Check Pods Manifest.lock */,
 				6876CD6E2A27826700BC1452 /* Sources */,
 				6876CD6F2A27826700BC1452 /* Frameworks */,
 				6876CD702A27826700BC1452 /* Resources */,
+				4B847F3076AC0AEC43EDA42E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6876CD822A27826B00BC1452 /* LaunchScreen.storyboard in Resources */,
+				6876CD8C2A2786B400BC1452 /* GoogleService-Info.plist in Resources */,
 				6876CD7F2A27826B00BC1452 /* Assets.xcassets in Resources */,
 				6876CD7D2A27826700BC1452 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B847F3076AC0AEC43EDA42E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapiaSnapchat/Pods-TapiaSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapiaSnapchat/Pods-TapiaSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapiaSnapchat/Pods-TapiaSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D870203789CE0E8F7135FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapiaSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6876CD6E2A27826700BC1452 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6876CD7A2A27826700BC1452 /* ViewController.swift in Sources */,
+				6876CD7A2A27826700BC1452 /* iniciarSesionViewController.swift in Sources */,
 				6876CD762A27826700BC1452 /* AppDelegate.swift in Sources */,
 				6876CD782A27826700BC1452 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +362,7 @@
 		};
 		6876CD872A27826B00BC1452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF4E7CAD0DCBB0E9DFB0E90 /* Pods-TapiaSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +390,7 @@
 		};
 		6876CD882A27826B00BC1452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD552EDD8BEDA712F29FD4F8 /* Pods-TapiaSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
